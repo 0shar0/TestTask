@@ -1,0 +1,17 @@
+.head{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 30px;
+    width: 130px;
+    height: 60px;
+}
+
+
+.border{
+    height: 2px;
+    width: 80px;
+    background-color: #E4B56B;
+    margin-top: 10px;
+    margin-left: 25px;
+}

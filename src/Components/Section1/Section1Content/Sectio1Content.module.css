@@ -1,0 +1,28 @@
+.section1Items{
+    width: 387px;
+    height: 202px;
+    margin: 5px;
+}
+
+.text{
+    background-color: rgba(62,62,62,0.9);
+    width: 318px;
+    height: 56px;
+    margin-top: 32px;
+    color: rgba(225,225,225,1);
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.line{
+    width: 2px;
+    height: 46px;
+    background-color: #E4B56B;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.text p{
+    margin-left: 15px;
+}

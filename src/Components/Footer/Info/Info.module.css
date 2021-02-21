@@ -1,0 +1,19 @@
+.info>header{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(62,62,62,1);
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.info>p{
+    color: rgba(174,174,174,1);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    margin: 15px 15px 15px 0px;
+}
+.info{
+    margin-left: 90px;
+    margin-top: 0px;
+}

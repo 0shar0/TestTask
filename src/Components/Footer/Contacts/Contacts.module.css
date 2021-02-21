@@ -1,0 +1,14 @@
+.contacts>header{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(62,62,62,1);
+    margin-top: -10px;
+}
+.contacts>p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+}

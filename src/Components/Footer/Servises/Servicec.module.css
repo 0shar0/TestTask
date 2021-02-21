@@ -1,0 +1,32 @@
+.wraper{
+    display: flex;
+}
+.line{
+    width: 1px;
+    height: 55px;
+    background-color: #E4B56B;
+    margin-top: -30px;
+}
+.servises{
+    width: 462px;
+    margin-left: 40px;
+}
+.servises>header{
+    margin-top: -10px;
+    width: 58px;
+    height: 21px;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+}
+.servisesWraper{
+    display: flex;
+    justify-content: space-between;
+}
+.servisesWraper>div>p{
+    height: 21px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(174,174,174,1);
+}

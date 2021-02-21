@@ -1,0 +1,12 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    position: relative;
+    z-index: 4;
+}
+.img{
+    margin-left: 5%;
+    margin-right: 5%;
+}

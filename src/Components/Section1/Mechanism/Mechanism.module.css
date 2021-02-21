@@ -1,0 +1,57 @@
+
+.allMechanism {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    position: relative;
+    z-index: 0;
+}
+
+.fullMechanism1 {
+    margin-left: -30px;
+    display: grid;
+    position: relative;
+    grid-template-areas:
+'first third'
+'second third';
+}
+
+.mechanism1 {
+    padding: 0;
+    margin: 0;
+    grid-area: first;
+}
+
+.mechanism2 {
+    margin-top: -50px;
+    grid-area: second;
+}
+.mechanism3{
+    grid-area: third;
+    margin-top: 90px;
+    margin-left: -60px;
+}
+.fullMechanism2{
+    display: grid;
+    position: relative;
+    grid-template-areas:
+'third first'
+'third second';
+
+}
+
+.mechanism4 {
+    padding: 0;
+    margin: 0;
+    grid-area: first;
+}
+
+.mechanism5 {
+    margin-top: -50px;
+    grid-area: second;
+}
+.mechanism6{
+    grid-area: third;
+    margin-top: 95px;
+    margin-right: -60px;
+}

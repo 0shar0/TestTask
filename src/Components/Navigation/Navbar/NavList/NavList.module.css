@@ -1,0 +1,20 @@
+.navList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex: 2;
+    font-size: 18px;
+    font-weight: 500;
+}
+.navListLine{
+    border-right: gray solid 1px;
+    opacity: 0.22;
+    max-width: 0;
+    height: 90px;
+}
+
+#active{
+    border-bottom: #E4B56B solid 2px;
+    font-weight: bolder;
+}
