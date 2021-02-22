@@ -7,10 +7,40 @@
 .search>div{
     margin-right: 21px;
 }
-
-#flags{
-    width: 31px;
-    height: 21px;
-    padding: 0;
-    margin: 0;
+.input input{
+    position: absolute;
+    margin-top: 27px;
+    margin-left: -100px;
+}
+.input img{
+    margin-top: 5px;
+}
+@media screen and (max-width: 575px){
+    .search{
+        display: block;
+    }
+    .input{
+        position: relative;
+        grid-area: input;
+        margin-right: 55px;
+        display: flex;
+        flex-direction: row;
+    }
+    .input input{
+        z-index: 1;
+        margin-top: -50px;
+        margin-left: -150px;
+        width: 194px;
+        height: 30px;
+        margin-bottom: 10px;
+        color: rgba(62,62,62,0.22);
+        border-color: rgba(62,62,62,0.22);
+        /*visibility: hidden;*/
+    }
+    .input img{
+        position: absolute;
+        z-index: 2;
+        margin-left: 25px;
+        margin-top: -40px;
+    }
 }

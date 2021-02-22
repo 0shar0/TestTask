@@ -26,3 +26,21 @@
 .text p{
     margin-left: 15px;
 }
+
+@media screen and (max-width: 575px){
+    .section1Items{
+        width: 159px;
+        height: 105px;
+    }
+    .text{
+        font-size: 12px;
+        height: 36px;
+        width: 149px;
+    }
+    .text p{
+        margin-left: 6px;
+    }
+    .line{
+        height: 23px;
+    }
+}

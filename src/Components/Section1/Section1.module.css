@@ -3,6 +3,8 @@
     flex-direction: column;
     flex-flow: wrap;
     width: 1200px;
+    justify-content: center;
+
 }
 
 .section1Footer {
@@ -30,4 +32,18 @@
     margin-top: -750px;
     position: relative;
     z-index: 1;
+}
+@media screen and (max-width: 575px){
+    .section1Wraper{
+        width: 350px;
+        flex-wrap: wrap;
+    }
+    .section1Footer{
+        width: 328px;
+        font-size: 14px;
+    }
+    .block{margin-top: 0}
+    .section1{
+        margin: 0;
+    }
 }

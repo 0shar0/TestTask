@@ -2,3 +2,13 @@
     display: flex;
     justify-content: space-around;
 }
+@media screen and (max-width: 575px){
+    .footer{
+        display: grid;
+        grid-template-areas:
+    'info servises'
+    'contacts contacts';
+        justify-content: center;
+        width: 100%;
+    }
+}

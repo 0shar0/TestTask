@@ -10,3 +10,16 @@
     margin-left: 5%;
     margin-right: 5%;
 }
+@media screen and (max-width:575px) {
+    .navbar{
+        display: grid;
+        height: 60px;
+        grid-template-areas: 'image search';
+    }
+    .img{
+        grid-area: image;
+        width: 80px;
+        height: 56px;
+        margin-left: -60px;
+    }
+}

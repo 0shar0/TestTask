@@ -30,3 +30,14 @@
     line-height: 21px;
     color: rgba(174,174,174,1);
 }
+@media screen and (max-width: 575px){
+    .servisesWraper{
+        display: block;
+    }
+    .wraper{
+        grid-area: servises;
+    }
+    .servises{
+        width: 195px;
+    }
+}

@@ -18,3 +18,14 @@
     margin-top: 10px;
     margin-left: 25px;
 }
+@media screen and (max-width: 575px) {
+    .head {
+        font-size: 20px;
+        line-height: 23.45px;
+        margin-bottom: -25px;
+        margin-top: 15px;
+    }
+    .border{
+        width: 60px;
+    }
+}

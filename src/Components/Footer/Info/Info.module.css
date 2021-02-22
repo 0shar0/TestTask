@@ -15,5 +15,15 @@
 }
 .info{
     margin-left: 90px;
-    margin-top: 0px;
+    margin-top: 0;
+}
+@media screen and (max-width: 575px){
+    .info{
+        width: 91px;
+        height: 148px;
+        grid-area: info;
+        margin-tom: 20px;
+        margin-left: 0;
+        grid-area: info;
+    }
 }
