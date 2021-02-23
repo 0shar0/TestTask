@@ -19,7 +19,7 @@
 }
 @media screen and (max-width: 575px){
     .info{
-        width: 91px;
+        width: 98px;
         height: 148px;
         grid-area: info;
         margin-tom: 20px;

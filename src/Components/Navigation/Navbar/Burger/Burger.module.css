@@ -1,0 +1,66 @@
+.wraper{
+    display: none;
+}
+@media screen and (max-width: 575px) {
+    .wraper{
+        display: block;
+        grid-area: burger;
+    }
+    .burger{
+        position: absolute;
+        margin-top: -39px;
+        margin-left: 9px;
+    }
+    .burgerLine{
+        height: 2.57px;
+        width: 26px;
+        background-color: #454647;
+        margin: 2.57px;
+    }
+    .menu{
+        width: 362px;
+        height: 580px;
+        top: 39px;
+        left: -322px;
+        background:linear-gradient(rgba(73,73,74,1),rgba(56,56,54,1));
+        position: absolute;
+        z-index: 2;
+        display: none;
+    }
+    .line{
+        width: 328px;
+        height: 1px;
+        background-color: rgba(228,181,187,0.5);
+        margin-left: 16px;
+    }
+    .items{
+        height: 61px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 16px;
+        margin-right: 16px;
+        color: white;
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 500;
+    }
+    .flag{
+        width: 31px;
+        height: 21px;
+        margin-right: 20px;
+    }
+    .hiden{display: block}
+    .crossed #burgerLine3{
+        display: none;
+    }
+    .crossed #burgerLine1{
+        position: absolute;
+        transform: rotate(45deg);
+    }
+    .crossed #burgerLine2{
+        position: absolute;
+        transform: rotate(-45deg);
+    }
+}

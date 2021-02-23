@@ -1,3 +1,7 @@
+import searchStyle from '../Components/Navigation/Navbar/Search/Search.module.css'
+import burgerStyle from '../Components/Navigation/Navbar/Burger/Burger.module.css'
+import mechanismStyle from '../Components/Section1/Mechanism/Mechanism.module.css'
+
 export const txt = 'Люди – профессионалы с большим опытом работы. Полный спектр работ по металлообработке в одном месте – комплексный индивидуальный подход. Конструкторский отдел. Логистика. Многолетний опыт машиностроения – создание промышленного '
 
 export const section1Data = [
@@ -13,3 +17,19 @@ export const section1Data = [
 
 export const mainImage = 'url("/Files/Rectangle.png")'
 
+export function hideSearch(){
+    const search = document.getElementById('search')
+    search.classList.toggle(searchStyle.hiden)
+}
+
+export function showBurger(){
+    const burger = document.getElementById('burger')
+    const menu = document.getElementById('menu')
+    burger.classList.toggle(burgerStyle.hiden)
+    menu.classList.toggle(burgerStyle.crossed)
+}
+export function rotate(){
+    console.log('scrolled')
+    /*const mechanism = document.querySelectorAll('#mechanism')
+    console.log(mechanism)*/
+}

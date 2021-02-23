@@ -8,7 +8,7 @@ export function Head (props){
     return(
         <nav style={{position:'relative',zIndex:3}}>
             <Navbar/>
-            <Carousel showArrows={false} className={style.carous} >
+            <Carousel showArrows={false} className={style.carous}>
                 <Card/>
                 <Card/>
             </Carousel>

@@ -10,10 +10,29 @@
 .input input{
     position: absolute;
     margin-top: 27px;
-    margin-left: -100px;
+    margin-left: -225px;
+    width: 283px;
+    height: 41px;
+    border:none;
+    background-color: rgba(241,241,241,1);
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    color: rgba(62,62,62,1);
+    z-index: 1;
+    padding-left: 31px;
 }
 .input img{
     margin-top: 5px;
+}
+.newGlass{
+    position: absolute;
+    z-index: 2;
+    top: 97px;
+    margin-left: 50px;
+}
+.hiden{
+    display: none;
 }
 @media screen and (max-width: 575px){
     .search{
@@ -28,9 +47,9 @@
     }
     .input input{
         z-index: 1;
-        margin-top: -50px;
-        margin-left: -150px;
-        width: 194px;
+        margin-top: -49px;
+        margin-left: -85px;
+        width: 163px;
         height: 30px;
         margin-bottom: 10px;
         color: rgba(62,62,62,0.22);
@@ -40,7 +59,10 @@
     .input img{
         position: absolute;
         z-index: 2;
-        margin-left: 25px;
+        margin-left: 80px;
         margin-top: -40px;
+    }
+    .newGlass{
+        display: none;
     }
 }

@@ -17,8 +17,6 @@
 }
 
 .mechanism1 {
-    padding: 0;
-    margin: 0;
     grid-area: first;
 }
 
@@ -58,5 +56,18 @@
 @media screen and (max-width: 575px){
     .allMechanism{
         display: none;
+    }
+}
+
+.mechanism{
+     animation: rotate 1s infinite linear;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
     }
 }
